@@ -1,3 +1,4 @@
+% Filter Profile-ANan-DEGs.csv' to get rid of .1 part.
 Table_tmp = readtable('Profiles-ANan-DEGs.csv','ReadRowNames',true,'ReadVariableNames',true);
 RowName_tmp = Table_tmp.Properties.RowNames;
 subT = [];
